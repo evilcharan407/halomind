@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, Alert, Modal } from 'react-native';
-import DocumentPicker from 'react-native-document-picker';
+import DocumentPicker from '@react-native-documents/picker';
 import { UploadIcon, LinkIcon, ImageIcon, VideoIcon } from '../components/icons';
 import Spinner from '../components/Spinner';
 import { extractTextFromUrl } from '../services/textExtractor';
